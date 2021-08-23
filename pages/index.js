@@ -27,6 +27,9 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
+        .link{
+          text align: left;
+        }
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -72,7 +75,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 2.rem;
         }
 
         .title,
